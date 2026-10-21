@@ -1,4 +1,4 @@
-# CreditPulse — project summary
+# CreditPulse â€” project summary
 
 Credit operations have finite review capacity. This model ranks existing accounts by next-month default risk. A human decides any intervention; prediction does not prove that a default can be prevented.
 
