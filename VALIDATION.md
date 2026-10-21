@@ -7,7 +7,7 @@
 - FastAPI dashboard, /docs, /ready and model-asset endpoints returned HTTP 200 in local checks.
 - Black formatting was applied to Python sources.
 - Two installed-environment deprecation warnings were observed (Starlette's httpx transition and pytest-asyncio's Python event-loop policy); tests completed successfully.
-- Docker is not installed on the build machine: Dockerfile/Compose are supplied but local image execution has not been verified.
+- Docker is not installed locally. GitHub Actions verified Linux dependency installation, all tests, Docker image build and container readiness: https://github.com/nick0369/creditpulse/actions/runs/39664778003 .
 - SQL is executed and tested with SQLite. PostgreSQL syntax is intended to be compatible, but a PostgreSQL server was not available for a runtime test.
 
 Re-run `python -m pytest -q` after any change. Do not substitute this report for your own checks when changing dependencies or model data. CI configuration runs tests and the container build in GitHub Actions when enabled.
