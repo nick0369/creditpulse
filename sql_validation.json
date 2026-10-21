@@ -1,0 +1,7 @@
+{
+  "accounts": 30000,
+  "history_rows": 180000,
+  "sql_python_parity": "passed for all seven features and all accounts",
+  "engine": "SQLite",
+  "postgresql_runtime_tested": false
+}

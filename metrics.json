@@ -1,0 +1,50 @@
+{
+  "roc_auc": 0.7768972488784598,
+  "average_precision": 0.560500591593636,
+  "brier": 0.1353140026330948,
+  "f1": 0.4399793920659454,
+  "prevalence": 0.22116666666666668,
+  "capture_at_10pct": 0.3165033911077619,
+  "confusion_matrix": [
+    [
+      4486,
+      187
+    ],
+    [
+      900,
+      427
+    ]
+  ],
+  "n_train": 18000,
+  "n_calibration": 3000,
+  "n_policy": 3000,
+  "n_test": 6000,
+  "ap_95pct_bootstrap": [
+    0.532438991424214,
+    0.592021621746555
+  ],
+  "selected_model": "xgboost",
+  "threshold": 0.5498616695404053,
+  "baseline_logistic": {
+    "roc_auc": 0.7185746623446175,
+    "average_precision": 0.5030985237373193,
+    "brier": 0.14412335003317386,
+    "f1": 0.393026941362916,
+    "prevalence": 0.22116666666666668,
+    "capture_at_10pct": 0.292388847023361,
+    "confusion_matrix": [
+      [
+        4479,
+        194
+      ],
+      [
+        955,
+        372
+      ]
+    ]
+  },
+  "baseline_latest_status_capture": 0.31348907309721175,
+  "challenger_selection": "Calibration-partition AP; policy and test untouched during selection",
+  "train_seconds": 3.287230100017041,
+  "python": "3.14.7"
+}

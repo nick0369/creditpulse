@@ -1,0 +1,98 @@
+[
+  {
+    "input": {
+      "limit_bal": 50000.0,
+      "latest_status": -1.0,
+      "max_status": 0.0,
+      "delinquent_months": 0.0,
+      "avg_utilization": 0.12111333333333334,
+      "payment_to_bill": 1.0033852589860737,
+      "balance_change": -24520.0
+    },
+    "expected_confidence": 0.11703313737474143
+  },
+  {
+    "input": {
+      "limit_bal": 150000.0,
+      "latest_status": -1.0,
+      "max_status": -1.0,
+      "delinquent_months": 0.0,
+      "avg_utilization": 0.02966,
+      "payment_to_bill": 1.5619240278714317,
+      "balance_change": 15000.0
+    },
+    "expected_confidence": 0.08751294219365051
+  },
+  {
+    "input": {
+      "limit_bal": 50000.0,
+      "latest_status": 0.0,
+      "max_status": 0.0,
+      "delinquent_months": 0.0,
+      "avg_utilization": 0.98853,
+      "payment_to_bill": 0.03939182422384753,
+      "balance_change": -290.0
+    },
+    "expected_confidence": 0.15537030878938562
+  },
+  {
+    "input": {
+      "limit_bal": 290000.0,
+      "latest_status": 0.0,
+      "max_status": 0.0,
+      "delinquent_months": 0.0,
+      "avg_utilization": 0.9354120689655172,
+      "payment_to_bill": 0.050181953125336,
+      "balance_change": 2122.0
+    },
+    "expected_confidence": 0.1116700477421027
+  },
+  {
+    "input": {
+      "limit_bal": 500000.0,
+      "latest_status": -2.0,
+      "max_status": -2.0,
+      "delinquent_months": 0.0,
+      "avg_utilization": 0.021635666666666668,
+      "payment_to_bill": 1.215184802871801,
+      "balance_change": 1371.0
+    },
+    "expected_confidence": 0.061044561838657814
+  },
+  {
+    "input": {
+      "limit_bal": 200000.0,
+      "latest_status": 1.0,
+      "max_status": 2.0,
+      "delinquent_months": 2.0,
+      "avg_utilization": 0.9829433333333333,
+      "payment_to_bill": 0.33462000183123475,
+      "balance_change": 10639.0
+    },
+    "expected_confidence": 0.2067459752421615
+  },
+  {
+    "input": {
+      "limit_bal": 210000.0,
+      "latest_status": 0.0,
+      "max_status": 0.0,
+      "delinquent_months": 0.0,
+      "avg_utilization": 0.5259301587301587,
+      "payment_to_bill": 0.03229350266798658,
+      "balance_change": 62539.0
+    },
+    "expected_confidence": 0.15111179596202404
+  },
+  {
+    "input": {
+      "limit_bal": 260000.0,
+      "latest_status": 0.0,
+      "max_status": 0.0,
+      "delinquent_months": 0.0,
+      "avg_utilization": 0.17893269230769232,
+      "payment_to_bill": 0.21637917136869256,
+      "balance_change": -8978.0
+    },
+    "expected_confidence": 0.05427907230854585
+  }
+]

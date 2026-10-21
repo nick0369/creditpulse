@@ -1,0 +1,10 @@
+{
+  "requests": 200,
+  "errors": 0,
+  "p50_ms": 13.698499999009073,
+  "p95_ms": 20.109500037506223,
+  "protocol": "Sequential FastAPI TestClient requests; 10 warmup; includes SQLite write; no network/load/SLA claim",
+  "python": "3.14.7",
+  "system": "Windows",
+  "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"
+}
